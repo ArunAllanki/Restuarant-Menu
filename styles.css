@@ -101,7 +101,7 @@ h5{
 button{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-style:oblique;
-    margin-top: 5%;
+    margin-top: 1%;
     margin-bottom: 5%;
     margin-left: 30%;
     height: 40px;
@@ -110,4 +110,5 @@ button{
     font-size: 20px;
     font-weight: 900;
     border-radius: 15px;
+    animation:fadein 2s 1;
 }
