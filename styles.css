@@ -16,6 +16,14 @@ body{
         transform:translateX(0);
     }
 }
+@keyframes SlideInRight{
+    from{
+        transform:translateX(800px);
+    }
+    to{
+        transform:translateX(0);
+    }
+}
 @keyframes SlideIntop{
     from{
         transform:translateY(-250px);
@@ -110,5 +118,5 @@ button{
     font-size: 20px;
     font-weight: 900;
     border-radius: 15px;
-    animation:fadein 1.5s ;
+     animation:SlideInRight 1.5s ease-in-out;
 }
